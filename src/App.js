@@ -5,10 +5,14 @@ import Movies from './components/Movies';
 import Login from './components/Login';
 import MovieDeails from './components/MovieDeails';
 import Navbar from './components/Navbar';
+import List from "./components/List"
 
 function App() {
   return (
     <div className="App">
+      <Route path="/list" exact >
+        <List />
+      </Route>
       <Route path="/" exact >
         <Dashboard />
         <Movies />
@@ -19,7 +23,6 @@ function App() {
       <Route path="/dashboard">
         <Dashboard />
         <Movies />
-        <MovieDeails />
       </Route>
       <Route path="/moviedetails">
         <Navbar />

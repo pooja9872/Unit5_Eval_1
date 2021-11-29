@@ -7,6 +7,9 @@ function Navbar() {
   return (
     <div className={styles.nav}>
       <img className={styles.pic1} src={showlogo} alt="bookmyshow1" />
+      <Link to="/list">
+        <button>Booked</button>
+      </Link>
       <Link to="/login">
         <button className={styles.loginbtn}>Login</button>
       </Link>
