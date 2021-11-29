@@ -1,0 +1,13 @@
+.movieContainer {
+  display: flex;
+  gap: 40px;
+  margin-top: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.movie_image {
+  width: 250px;
+  height: 250px;
+  border-radius: 5px;
+}
