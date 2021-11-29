@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import styles from "../components/login.module.css";
 
 function Login() {
@@ -7,7 +8,9 @@ function Login() {
       <h1 className={styles.loginheading}>Login Page</h1>
       <input type="text" placeholder="Enter your email address" />
       <input type="password" placeholder="Enter password" />
-      <button>Submit</button>
+      <Link to="/dashboard">
+        <button>Submit</button>
+      </Link>
     </div>
   );
 }
