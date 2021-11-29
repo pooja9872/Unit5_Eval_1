@@ -3,6 +3,8 @@ import { Route } from "react-router-dom";
 import Dashboard from './components/Dashboard';
 import Movies from './components/Movies';
 import Login from './components/Login';
+import MovieDeails from './components/MovieDeails';
+import Navbar from './components/Navbar';
 
 function App() {
   return (
@@ -17,6 +19,11 @@ function App() {
       <Route path="/dashboard">
         <Dashboard />
         <Movies />
+        <MovieDeails />
+      </Route>
+      <Route path="/moviedetails">
+        <Navbar />
+        <MovieDeails />
       </Route>
 
     </div>

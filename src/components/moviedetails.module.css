@@ -1,0 +1,24 @@
+.backDetails {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: black;
+}
+.picc {
+  width: 250px;
+  height: 300px;
+}
+.para {
+  width: 40%;
+  align-items: center;
+  color: bisque;
+}
+.bookbtn {
+  padding: 10px;
+  border: none;
+  outline: none;
+  text-decoration: none;
+  background-color: #f90716;
+  color: white;
+  border-radius: 5px;
+}
