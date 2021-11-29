@@ -1,0 +1,11 @@
+.loginPage {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  gap: 15px;
+}
+.loginheading {
+  border-bottom: 2px solid black;
+}
