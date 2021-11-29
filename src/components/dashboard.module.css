@@ -1,18 +1,12 @@
-.nav {
-  height: 40px;
+.dashboardinfo {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
-  border: 1px solid black;
-  border-radius: 5px;
   padding: 10px;
-  background-color: #fff323;
+  margin-top: 10px;
+  background-color: #0f2c67;
 }
-.pic1 {
-  width: 150px;
-  height: 40px;
-}
-.loginbtn {
+.btndashboard {
   background-color: #f90716;
   color: white;
   font-size: 16px;
